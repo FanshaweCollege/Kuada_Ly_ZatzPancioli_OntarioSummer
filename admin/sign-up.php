@@ -81,14 +81,6 @@ function sendForm($fname,$lname,$email,$country){
 
         //redirect_to('./index_subs.php');
         
-        /*function sendEmail(){
-
-            $to = $email;
-            $subject = "Test mail 2";
-            $message = "Hello! This is a simple email message 2.";
-            $headers = "From: admin@admin.com";
-            
-        };*/
 
         //$message = 'Welcome!';
         //return $message;

@@ -32,7 +32,7 @@ if(isset($_POST['subscribe'])){
     <?php if(!empty($message)):?>
         <p id="error"><?php echo $message;?></p>
     <?php endif?>
-    <form action="subscribe.php" method="POST">
+    <form action="index.php" method="POST">
         <label for="first-name">First Name:</label>
         <input type="text" id="first-name" name="fname"><br><br>
         <label for="last-name">Last Name:</label>
